@@ -23,11 +23,10 @@ Color.new("brown", "#a3685a")
 Color.new("seagreen", "#698b69")
 Color.new("turquoise", "#698b69")
 
-local background_string = "#111111"
-Color.new("background", background_string)
-Color.new("gray0", background_string)
-
-Group.new("Normal", c.superwhite, c.gray0)
+Group.new("Normal", c.superwhite, nil)
+Group.new("NormalFloat", c.superwhite, nil)
+Group.new("FloatBorder", c.superwhite, nil)
+Group.new("Pmenu", c.superwhite, nil)
 
 Group.new("@constant", c.orange, nil, s.none)
 Group.new("@function", c.yellow, nil, s.none)
